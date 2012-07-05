@@ -1,6 +1,6 @@
 {
   "name": "hosted-boric",
-  "version": "0.0.1-14",
+  "version": "0.0.2",
   "author": "Fernando Lores",
   "keywords": "github hubot campfire bot",
   "description": "A Hubot custom version",
