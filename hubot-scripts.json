@@ -1,1 +1,3 @@
-["redis-brain.coffee", "tweet.coffee", "shipit.coffee"]
+["redis-brain.coffee", "tweet.coffee", "shipit.coffee", "decide.coffee", "ascii.coffee",
+ "eight-ball.coffee", "fibonacci.coffee", "faceup.coffee", "invalid.coffee", "location-decision-maker.coffee",
+ "polite.coffee"]
