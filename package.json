@@ -15,8 +15,8 @@
     "url": "https://github.com/ferlores/boric.git"
   },
   "dependencies": {
-    "hubot": "2.2.0",
-    "hubot-irc": ">= 0.0.1",
+    "hubot": "2.3.0",
+    "hubot-irc": "0.1.0",
     "hubot-scripts": ">=2.0.8",
     "optparse": "1.0.3",
     "mongodb" : "1.0.x"
