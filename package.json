@@ -1,6 +1,6 @@
 {
   "name": "hosted-boric",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Fernando Lores",
   "keywords": "github hubot campfire bot",
   "description": "A Hubot custom version",
@@ -15,11 +15,11 @@
     "url": "https://github.com/ferlores/boric.git"
   },
   "dependencies": {
-    "hubot": "2.2.0",
-    "hubot-irc": ">= 0.0.1",
+    "hubot": "2.3.0",
+    "hubot-irc": "0.1.0",
     "hubot-scripts": ">=2.0.8",
     "optparse": "1.0.3",
-    "mongodb" : "1.0.x"
+    "mongodb": "1.0.x"
   },
   "engines": {
     "node": "0.6.x",
@@ -30,4 +30,3 @@
     "start": "bin/boric"
   }
 }
-
