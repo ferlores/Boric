@@ -1,16 +1,22 @@
-// Description:
-//   Allows Hubot to hear if someone speaks about a bug and create the URL.
+//Description:
+//  Allows Hubot to hear if someone speaks about a bug and create the URL.
 //
-// Commands:
-//   bug #<bug number>
+//Dependencies:
+//  None
 //
-// Examples:
-//   User> I was seeing the bug #1234 but i cant reproduce it
-//   Boric> Bugzilla bug #1234: BUGZILLA_HOST/show_bug.cgi?id=1234
+//Configuration:
+//  None
 //
-// You need to define the variable BUGZILLA_HOST
+//Commands:
+//  bug #<bug number> - Allows Hubot to hear if someone speaks about a bug and create the URL.
+//
+//Author:
+//  aluebs
+
 module.exports = function (robot) {
    robot.hear(/bug #([0-9]+)/i, function(msg) {
-      msg.send('Bugzilla bug #'+msg.match[1]+': '+process.env['BUGZILLA_HOST']+'/show_bug.cgi?id='+msg.match[1])
+      if(process.env['BUGZILLA_HOST']) {
+         msg.send('Bugzilla bug #'+msg.match[1]+': '+process.env['BUGZILLA_HOST']+'/show_bug.cgi?id='+msg.match[1])
+      }
    });
 }
