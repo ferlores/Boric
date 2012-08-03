@@ -12,6 +12,10 @@ module.exports = (robot) ->
   robot.router.get "/hubot/time", (req, res) ->
     res.end "Server time is: #{new Date()}"
 
+  robot.router.get "/hubot/ip", (req, res) ->
+    robot.http('http://checkip.dyndns.org').get() (err, r, body) ->
+      res.end "#{body}"
+
   robot.router.get "/hubot/info", (req, res) ->
     child = spawn('/bin/sh', ['-c', "echo I\\'m $LOGNAME@$(hostname):$(pwd) \\($(git rev-parse HEAD)\\)"])
 
