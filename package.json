@@ -1,6 +1,6 @@
 {
   "name": "hosted-boric",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "Fernando Lores",
   "keywords": "github hubot campfire bot",
   "description": "A Hubot custom version",
@@ -18,8 +18,9 @@
     "hubot": "2.3.0",
     "hubot-irc": "0.1.0",
     "hubot-scripts": ">=2.0.8",
-    "mongodb" : "1.0.x",
-    "optparse": "1.0.3"
+    "mongodb": "1.0.x",
+    "optparse": "1.0.3",
+    "scoped-http-client": "*"
   },
   "devDependencies": {
     "mocha": "1.3.x",
