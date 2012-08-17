@@ -20,7 +20,8 @@
     "hubot-scripts": ">=2.0.8",
     "mongodb": "1.0.x",
     "optparse": "1.0.3",
-    "scoped-http-client": "*"
+    "scoped-http-client": "*",
+    "request": "~2.10.0"
   },
   "devDependencies": {
     "mocha": "1.3.x",
