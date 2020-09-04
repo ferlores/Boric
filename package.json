@@ -18,7 +18,7 @@
     "hubot": "2.3.0",
     "hubot-irc": "0.1.0",
     "hubot-scripts": ">=2.0.8",
-    "mongodb": "1.0.x",
+    "mongodb": "3.6.x",
     "optparse": "1.0.3",
     "scoped-http-client": "*",
     "request": "~2.10.0"
